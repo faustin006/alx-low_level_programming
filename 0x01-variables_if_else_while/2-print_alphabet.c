@@ -5,6 +5,7 @@
  * 
  * Return: 0
  */
+
 int main(void)
 {
 	char c;
@@ -13,5 +14,6 @@ int main(void)
 		putchar(c);
 
 	putchar('\n');
+	
 	return (0);
 }
