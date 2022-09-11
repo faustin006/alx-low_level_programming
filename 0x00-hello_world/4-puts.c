@@ -3,6 +3,8 @@
 /*
  * * main - Printing in c
  *
+ *Description: using main function
+ *this program prints "Programming is like building a multilingual puzzle
  * * Return: Always 0 (Correct)
  */
 
