@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - printing the fdunction string
- * 
+ * main - print the string in the function
+ *
+ * Description: using the main function to print
+ *
  * Return: 0
  */
 int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
-	float f;
+	char a;
+	int b;
+	long c;
+	long long d;
+	float e;
 
 	printf("Size of a char: %d byte(s)\n", sizeof(a));
 	printf("Size of an int: %d byte(s)\n", sizeof(b));
