@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Printing the string put function
  *
  * Description: using main function
