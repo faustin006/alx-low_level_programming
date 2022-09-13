@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-void mainn(void)
+void main(void)
 {
 	char c;
 
