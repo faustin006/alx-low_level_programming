@@ -4,12 +4,12 @@
 /**
  * print_most_numbers - prints numbers except 2 and 4
  *
- * Return: 00
+ * Return: o
  */
 
 void print_most_numbers(void)
 {
-	int n;
+	int i;
 
 	for (n = 48; n < 58; n++)
 	{
@@ -19,5 +19,5 @@ void print_most_numbers(void)
 		}
 		putchar(n);
 	}
-	putchar(10)
+	putchar(10);
 }
