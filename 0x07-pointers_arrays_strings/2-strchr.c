@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- * _strncpy - C function that copies a string
- * If the length of the source string is less than the maximum byte number,
- * the remainder of the destination string is filled with null bytes.
- * @dest: buffer storing the string copy
- * @src:the source string
- * @n:max nummber of byte copied
- * Return: returns
+ * _strchr - locates a character in a string
+ * @s: string to check
+ * @c: character to check for
+ *
+ * Return: pointer to spot in s with c or null
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strchr(char *s, char c)
 {
 	int i;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
-
-	for ( ; i < n; i++)
-		dest[i] = '\0';
-
-	return (dest);
+	for (i = 0; *(s + i); i++)
+	{
+		if (*(s + i) == c)
+			return (s + i);
+	}
+	if (*(s + i) == c)
+		return (s + i);
+	return (0);
 }
