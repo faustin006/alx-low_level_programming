@@ -9,7 +9,7 @@
  * Return: 0
  */
 
-int main(int args, char argv[])
+int main(int args, char *argv[])
 {
 	printf("%d\n", args - 1);
 	(void)argv;
