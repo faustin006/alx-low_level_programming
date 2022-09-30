@@ -4,8 +4,8 @@
 /**
  * main - prints arguments a program receives
  *
- * argc: argument number
- * argv: argument array
+ * @argc: argument number
+ * @argv: argument array
  *
  * Return: 0
  */
