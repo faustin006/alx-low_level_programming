@@ -12,7 +12,7 @@ struct dog
 {
 	char *name;
 	float age;
-	chat *owner;
+	char *owner;
 };
 
 typedef struct dog dog_t;
