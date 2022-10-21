@@ -2,8 +2,8 @@
 
 /**
  * free_lists - frees a list
- * @head: head of the linked list
- * Return: 0
+ * @head: head of the linked list.
+ * Return: none.
  */
 void free_list(list_t *head)
 {
