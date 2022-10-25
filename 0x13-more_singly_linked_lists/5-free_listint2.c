@@ -2,7 +2,7 @@
 
 /**
  * free_listint2 - frees a listint_t list
- * @h: pointer to the head address
+ * @head: pointer to the head address
  *
  * Description: sets the head to NULL
  */
